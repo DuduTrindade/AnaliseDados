@@ -23,16 +23,16 @@ concretas para melhorar o desempenho da empresa.. Retornar ao [início.](https:/
 O conjunto de dados é composto pelas seguintes tabelas:
 *	**Clientes**: Contém informações demográficas dos clientes.
 *	**Devoluções**: Registra as devoluções de produtos.
-*	Itens: Detalha os itens vendidos em cada venda.
-*	Localidades: Armazena informações geográficas das lojas.
-*	Lojas: Contém informações sobre as lojas.
-*	Produtos: Armazena informações sobre os produtos vendidos.
-*	Vendas: Registra as vendas realizadas.
+*	**Itens**: Detalha os itens vendidos em cada venda.
+*	**Localidades**: Armazena informações geográficas das lojas.
+*	**Lojas**: Contém informações sobre as lojas.
+*	**Produtos**: Armazena informações sobre os produtos vendidos.
+*	**Vendas**: Registra as vendas realizadas.
 
 Nesta análise estou utilizando o Sistema de Gerenciamento de Banco de Dados (SGBD) SQL Server da Microsoft. Abaixo segue o diagrama do banco chamado Analise_Vendas e seus 
 respectivos relacionamentos.
 
-![](https://github.com/DuduTrindade/Analises_de_Dados/blob/main/Projetos/Projeto%2001/img/DIAGRAMA%20VENDAS.png)
+![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/DIAGRAMA%20VENDAS.png)
 
 ## Análises e Insights
 
