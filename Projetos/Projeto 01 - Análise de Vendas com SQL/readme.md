@@ -1,4 +1,4 @@
-![](https://github.com/DuduTrindade/Analises_de_Dados/blob/main/Projetos/Projeto%2001/img/titulo.png)
+![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/analise%20de%20vendas.jpg)
 
 
 ## Introdução
