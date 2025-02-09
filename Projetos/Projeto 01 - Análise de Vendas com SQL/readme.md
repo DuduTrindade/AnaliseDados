@@ -140,68 +140,11 @@ Descrição: Esta tabela registra todas as vendas realizadas, fornecendo um hist
 11) **Categorias de Produtos**: Analisar a distribuição dos produtos por categoria.
 
 
+### Análise 
 
 
 
-
-
-
-### Análise de Clientes
-> 📝**Pergunta 1: Qual é a distribuição de clientes por estado civil?**
-
-~~~SQL
-
--- CTE para calcular a quantidade total de clientes por Estado Civil.
-WITH Total_Estado_Civil AS
-(
-	SELECT 
-		CASE
-			WHEN Estado_Civil = 'C' THEN 'Solteiro(a)'
-			ELSE 'Casado(a)'
-		END	Estado_Civil,
-		COUNT(*) AS [Total Estado Civil] -- Conta o número de clientes em cada estado civil.		
-	FROM Clientes
-	GROUP BY Estado_Civil
-),
-
--- CTE para calcular o total geral de clientes na tabela.
-Total_Clientes AS
-(
-	SELECT 
-		COUNT(*) AS [Total Clientes]
-	FROM Clientes 
-)
-
--- Consulta principal para combinar os resultados das duas CTEs.
-SELECT
-	TE.Estado_Civil,
-	TE.[Total Estado Civil],
-	TC.[Total Clientes],
-	-- Calcula a porcentagem de clientes por estado civil.
-	FORMAT((100.0 * [Total Estado Civil]) / [Total Clientes], 'N0', 'PT-BR') AS [% Por Estado Civil]
-FROM Total_Estado_Civil TE
-CROSS JOIN Total_Clientes TC
-~~~
-![](https://github.com/DuduTrindade/Analises_de_Dados/blob/main/Projetos/Projeto%2001/img/pergunta%2001.png)
-
-**Insight**: Identificar quais estados civis são mais comuns entre os clientes, permitindo segmentações específicas.
-
-> 📝**Pergunta 2: Quantos clientes temos em cada país?**
-
-~~~SQL
-SELECT 
-	L.País,
-	COUNT(C.ID_Cliente) AS [Clientes Por País]
-FROM Clientes C INNER JOIN Localidades L ON C.Id_Localidade = L.Id_Localidade
-GROUP BY L.País
-ORDER BY [Clientes Por País] DESC;
-~~~
-
-![](https://github.com/DuduTrindade/Analises_de_Dados/blob/main/Projetos/Projeto%2001/img/pergunta%2002.png)
-
-**Insight**: Identificar a distribuição geográfica dos clientes pode ajudar a adaptar estratégias de marketing para diferentes regiões.
-
-> 📝**Pergunta 3: Qual é a distribuição de clientes por gênero em cada faixa etária?**
+> 📝**Pergunta 1: Qual é a distribuição de clientes por gênero em cada faixa etária?**
 ~~~SQL
 /*
 Faixas etárias usadas na distribuição:
