@@ -145,7 +145,7 @@ Descrição: Esta tabela registra todas as vendas realizadas, fornecendo um hist
 
 
 > 📝**Pergunta 1: Qual é a distribuição de clientes por gênero em cada faixa etária?**
-<div  style="display: inline_block">
+<div  style="display: inline-block">
 <p style="font-size: 16px; font-family: Arial, sans-serif;">
 ~~~SQL 
 /*
