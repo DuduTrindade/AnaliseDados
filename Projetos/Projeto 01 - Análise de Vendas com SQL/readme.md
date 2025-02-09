@@ -40,21 +40,39 @@ respectivos relacionamentos.
 Nesta etapa, realizaremos uma análise exploratória das tabelas disponíveis para entender como os dados estão organizados e identificar as informações mais relevantes. Essa 
 análise é fundamental para obter insights e preparar o terreno para futuras análises mais aprofundadas.
 
-### tabela de clientes
+### Tabela de Clientes
 ![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELAS%20CLIENTES.png) 
 
 Descrição: Esta tabela contém informações dos clientes. Segue abaixo os campos:
 
-*	Id_cliente: Identificador único do cliente.
-*	Primeiro_nome: Primeiro nome do cliente.
-*	Sobrenome: Sobrenome do cliente.
-*	Email: Endereço de e-mail do cliente.
-*	Gênero: Gênero do cliente.
-*	Data_nascimento: Data de nascimento do cliente.
-*	Estado_civil: Estado civil do cliente (solteiro, casado, etc.).
-*	Num_filhos: Número de filhos do cliente.
-*	Documento: Documento de identificação do cliente.
-*	Id_localidade: Identificador da localidade do cliente.
+*	**Id_cliente**: Identificador único do cliente.
+*	**Primeiro_nome**: Primeiro nome do cliente.
+*	**Sobrenome**: Sobrenome do cliente.
+*	**Email**: Endereço de e-mail do cliente.
+*	**Gênero**: Gênero do cliente.
+*	**Data_nascimento**: Data de nascimento do cliente.
+*	**Estado_civil**: Estado civil do cliente (solteiro, casado, etc.).
+*	**Num_filhos**: Número de filhos do cliente.
+*	**Documento**: Documento de identificação do cliente.
+*	**Id_localidade**: Identificador da localidade do cliente.
+
+### Tabela de Devolucoes
+![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20DEVOLU%C3%87%C3%95ES.png)
+
+Descrição: Esta tabela registra as devoluções de produtos. Segue abaixo os campos:
+
+*	**Data_devolucao**: Data em que a devolução foi realizada.
+*	**Id_Loja**: Identificador da loja onde a devolução foi realizada.
+*	**SKU**: Código do produto devolvido.
+*	**Qtde_Devolvida**: Quantidade de itens devolvidos.
+*	**Motivo_Devolucao**: Motivo pelo qual o produto foi devolvido.
+*	I**d_Devolução**: Identificador da devolução
+
+
+
+
+
+
 
 
 
