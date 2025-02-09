@@ -21,8 +21,8 @@ concretas para melhorar o desempenho da empresa.. Retornar ao [início.](https:/
 ## Estrutura do Conjunto de Dados
 
 O conjunto de dados é composto pelas seguintes tabelas:
-*	>**Clientes**: Contém informações demográficas dos clientes.
-*	Devoluções: Registra as devoluções de produtos.
+*	**Clientes**: Contém informações demográficas dos clientes.
+*	**Devoluções**: Registra as devoluções de produtos.
 *	Itens: Detalha os itens vendidos em cada venda.
 *	Localidades: Armazena informações geográficas das lojas.
 *	Lojas: Contém informações sobre as lojas.
