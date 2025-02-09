@@ -145,8 +145,8 @@ Descrição: Esta tabela registra todas as vendas realizadas, fornecendo um hist
 
 
 > 📝**Pergunta 1: Qual é a distribuição de clientes por gênero em cada faixa etária?**
-
-~~~SQL
+<div style="display: inline_block">
+~~~SQL 
 /*
 Faixas etárias usadas na distribuição:
 [1]	0-17 anos
@@ -192,7 +192,7 @@ GROUP BY Faixa_Etaria, Genero
 ORDER BY Faixa_Etaria, Total_Genero DESC;
 
 ~~~
-<div style="display: inline_block">
+
  <img align="center" width='300' height = '250' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/Resultado%20analise%20cliente.png"/>
 </div>
 
