@@ -2,15 +2,20 @@
 
 
 ## Introdução
-A TechGlobal Solutions é uma empresa fictícia de varejo que atua no segmento de eletrônicos, oferecendo 
-desde dispositivos móveis e computadores até acessórios tecnológicos de ponta. Com presença em múltiplos 
-continentes e operando tanto online quanto em lojas físicas, a TechGlobal atende uma base diversificada 
-de clientes: indivíduos, pequenas e grandes empresas. Nos últimos anos, a empresa vem enfrentando desafios 
-relacionados ao aumento das devoluções, à complexidade na gestão de estoques e à necessidade de otimizar suas 
-estratégias de vendas em um mercado altamente competitivo.
+No mundo atual, onde os dados são considerados o novo petróleo, a capacidade de analisar as informações de maneira eficaz tornou-se essencial para as empresas que 
+buscam se manter competitivas. A análise de dados de vendas é uma das áreas mais críticas, pois permite entender o comportamento do consumidor, identificar tendências 
+de mercado e otimizar estratégias de vendas.
 
-Diante disso, a TechGlobal decidiu apostar na análise de dados para impulsionar suas operações, tomando decisões 
-baseadas em insights precisos para melhorar a rentabilidade, reduzir custos e entender melhor o comportamento de seus clientes. Retornar ao [início.](https://github.com/DuduTrindade/Analises_de_Dados/tree/main)
+Neste contexto, o SQL (Structured Query Language) se destaca como uma ferramenta poderosa para a análise de dados. Utilizada amplamente em sistemas de gerenciamento de banco
+ de dados, a linguagem SQL permite consultar, manipular e extrair informações valiosas de grandes conjuntos de dados de maneira rápida e eficiente.
+
+Analisarei dados de uma empresa fictícia de varejo que atua no segmento de eletrônicos, oferecendo desde dispositivos móveis e computadores até acessórios tecnológicos de ponta.
+ Com presença em múltiplos continentes e operando tanto online quanto em lojas físicas, a empresa atende uma base diversificada de clientes: indivíduos, pequenas e grandes 
+ empresas. 
+
+Ao longo desta análise, utilizarei SQL para explorar e interpretar dados de vendas, buscando respostas para perguntas estratégicas que podem orientar decisões empresariais.
+Desde a identificação dos produtos mais vendidos até a análise das taxas de devolução por loja, cada consulta SQL nos fornecerá insights que podem ser transformados em ações
+ concretas para melhorar o desempenho da empresa.. Retornar ao [início.](https://github.com/DuduTrindade/AnaliseDados/tree/main?tab=readme-ov-file#todos-os-meus-projetos)
 
 ## Objetivo das Análises
 
