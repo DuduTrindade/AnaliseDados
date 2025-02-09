@@ -125,7 +125,19 @@ Descrição: Esta tabela registra todas as vendas realizadas, fornecendo um hist
 *	**Id_loja**: Identificador da loja onde a venda foi efetuada.
 
 
+###Perguntas Sugeridas
 
+*	1. Distribuição de Clientes por Gênero e Faixa Etária: Segmentar os clientes por gênero e faixa etária para entender a proporção dos dados.
+*	2. Distribuição Geográfica de Clientes: Relacionar a tabela de Clientes com a tabela de Localidades para entender a distribuição geográfica de clientes por País e Continente
+*	3. Motivos de Devolução dos Produtos: Analisar os principais motivos de devolução.
+*	4. Taxa de Devoluções: Calcular a frequência de devoluções por produtos e lojas
+*	5. Produtos Mais Vendidos: Identificar os produtos mais vendidos.
+*	6. Análise Temporal de Vendas: Calcular a quantidade vendida por mês, trimestre e ano.
+*	7. Vendas por Loja: Analisar a distribuição das vendas por loja.
+*	8. Vendas por Cliente: Verificar a distribuição das vendas por cliente.
+*	9. Distribuição Geográfica das Lojas: Criar um mapa de distribuição das lojas por estado e cidade.
+*	10. Concentração de Lojas: Identificar regiões com maior concentração de lojas.
+*	11. Categorias de Produtos: Analisar a distribuição dos produtos por categoria.
 
 
 
