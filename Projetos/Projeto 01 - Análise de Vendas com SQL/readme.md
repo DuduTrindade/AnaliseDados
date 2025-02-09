@@ -15,22 +15,8 @@ Analisarei dados de uma empresa fictícia de varejo que atua no segmento de elet
 
 Ao longo desta análise, utilizarei SQL para explorar e interpretar dados de vendas, buscando respostas para perguntas estratégicas que podem orientar decisões empresariais.
 Desde a identificação dos produtos mais vendidos até a análise das taxas de devolução por loja, cada consulta SQL nos fornecerá insights que podem ser transformados em ações
- concretas para melhorar o desempenho da empresa.. Retornar ao [início.](https://github.com/DuduTrindade/AnaliseDados/tree/main?tab=readme-ov-file#todos-os-meus-projetos)
+concretas para melhorar o desempenho da empresa.. Retornar ao [início.](https://github.com/DuduTrindade/AnaliseDados/tree/main?tab=readme-ov-file#todos-os-meus-projetos)
 
-## Objetivo das Análises
-
-A TechGlobal enfrenta obstáculos significativos, como uma alta taxa de devoluções, dificuldades na gestão de estoque e a necessidade de otimizar
-suas estratégias de marketing e vendas. Para abordar essas questões, são necessárias análises detalhadas que revelem padrões no comportamento dos clientes,
-a demanda por produtos e o desempenho das lojas em diferentes regiões.
-
-O objetivo central da análise é descobrir padrões nos dados relacionados a vendas, devoluções e comportamento dos consumidores. Essas informações permitirão à empresa 
-aprimorar a experiência dos clientes, aumentar as vendas e otimizar os custos operacionais. As análises a serem realizadas incluem:
-
-*	Análise de Clientes
-*	Análise de Produtos e Vendas
-*	Análise de Devoluções
-*	Análise Geográfica
-*	Análise de Performance das Lojas
 
 ## Estrutura do Conjunto de Dados
 
