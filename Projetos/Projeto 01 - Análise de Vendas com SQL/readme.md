@@ -32,9 +32,36 @@ O conjunto de dados é composto pelas seguintes tabelas:
 Nesta análise estou utilizando o Sistema de Gerenciamento de Banco de Dados (SGBD) SQL Server da Microsoft. Abaixo segue o diagrama do banco chamado **Analise_Vendas** e seus 
 respectivos relacionamentos.
 
+![Projetos/Projeto 01 - Análise de Vendas com SQL/img/SCHEMA.png]
 ![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/DIAGRAMA%20VENDAS.png)
 
-## Análises e Insights
+## Análise Explorativa dos Dados
+
+Nesta etapa, realizaremos uma análise exploratória das tabelas disponíveis para entender como os dados estão organizados e identificar as informações mais relevantes. Essa 
+análise é fundamental para obter insights e preparar o terreno para futuras análises mais aprofundadas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Análise de Clientes
 > 📝**Pergunta 1: Qual é a distribuição de clientes por estado civil?**
