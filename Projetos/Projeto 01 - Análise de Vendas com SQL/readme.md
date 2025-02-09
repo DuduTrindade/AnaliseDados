@@ -146,55 +146,7 @@ Descrição: Esta tabela registra todas as vendas realizadas, fornecendo um hist
 
 > 📝**Pergunta 1: Qual é a distribuição de clientes por gênero em cada faixa etária?**
 <div  style="display: inline-block">
-<p style="font-size: 16px; font-family: Arial, sans-serif;">
-~~~SQL 
-/*
-Faixas etárias usadas na distribuição:
-[1]	0-17 anos
-[2]	18-25 anos
-[3]	26-35 anos
-[4]	36-45 anos
-[5]	46-55 anos
-[6]	56-65 anos
-[7]	66 anos ou mais
-*/
--- CTE para calcular qual é a distribuição de clientes por gênero em cada faixa etária
-WITH CTE_Distribuicao_Genero (Genero, Faixa_Etaria)
-AS
-(
-	SELECT 
-		Genero,
-		-- Calcula a faixa etária com base na diferença de anos entre a data de nascimento e a data atual.
-		CASE 
-			WHEN  DATEDIFF(YEAR, Data_Nascimento, GETDATE()) <= 17 THEN 1
-			WHEN  DATEDIFF(YEAR, Data_Nascimento, GETDATE()) BETWEEN 18 AND 25 THEN 2
-			WHEN  DATEDIFF(YEAR, Data_Nascimento, GETDATE()) BETWEEN 26 AND 35 THEN 3
-			WHEN  DATEDIFF(YEAR, Data_Nascimento, GETDATE()) BETWEEN 36 AND 45 THEN 4
-			WHEN  DATEDIFF(YEAR, Data_Nascimento, GETDATE()) BETWEEN 46 AND 55 THEN 5
-			WHEN  DATEDIFF(YEAR, Data_Nascimento, GETDATE()) BETWEEN 56 AND 65 THEN 6
-			ELSE  7
-		END Faixa_Etaria
-	FROM Clientes
-)
-SELECT
-	Genero,
-	CASE
-		WHEN Faixa_Etaria = 1 THEN '0-17'  -- Faixa 1 corresponde ao intervalo '0-17 anos'.
-		WHEN Faixa_Etaria = 2 THEN '18-25' -- Faixa 2 corresponde ao intervalo '18-25 anos'.
-		WHEN Faixa_Etaria = 3 THEN '26-35' -- Faixa 3 corresponde ao intervalo '26-35 anos'.
-		WHEN Faixa_Etaria = 4 THEN '36-45' -- Faixa 4 corresponde ao intervalo '36-45 anos'.
-		WHEN Faixa_Etaria = 5 THEN '46-55' -- Faixa 5 corresponde ao intervalo '46-55 anos'.
-		WHEN Faixa_Etaria = 6 THEN '56-65'  -- Faixa 6 corresponde ao intervalo '56-65 anos'.
-		ELSE '66+'						 -- Faixa 7 corresponde ao intervalo '66 anos ou mais'.
-	END	Faixa_Etaria,
-	COUNT(Faixa_Etaria) AS Total_Genero
-FROM CTE_Distribuicao_Genero
-GROUP BY Faixa_Etaria, Genero
-ORDER BY Faixa_Etaria, Total_Genero DESC;
-
-~~~
-</p>
-
+<img align="center" width='300' height = '250' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/query%20clientes.png"/>
  <img align="center" width='300' height = '250' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/Resultado%20analise%20cliente.png"/>
 </div>
 
