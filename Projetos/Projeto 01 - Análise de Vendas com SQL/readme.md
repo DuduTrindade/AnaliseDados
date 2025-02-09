@@ -56,7 +56,7 @@ Descrição: Esta tabela contém informações dos clientes. Segue abaixo os cam
 *	**Documento**: Documento de identificação do cliente.
 *	**Id_localidade**: Identificador da localidade do cliente.
 
-### Tabela de Devolucoes
+### Tabela de Devoluções
 ![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20DEVOLU%C3%87%C3%95ES.png)
 
 Descrição: Esta tabela registra as devoluções de produtos. Segue abaixo os campos:
@@ -66,22 +66,63 @@ Descrição: Esta tabela registra as devoluções de produtos. Segue abaixo os c
 *	**SKU**: Código do produto devolvido.
 *	**Qtde_Devolvida**: Quantidade de itens devolvidos.
 *	**Motivo_Devolucao**: Motivo pelo qual o produto foi devolvido.
-*	I**d_Devolução**: Identificador da devolução
+*	**Id_Devolução**: Identificador da devolução
+
+### Tabela de Itens
+![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20ITENS.png)
+
+Descrição: Esta tabela detalha os itens vendidos em cada transação. Segue abaixo os campos:
+
+*	**Id_item**: Identificador único de cada item vendido.
+*	**Id_venda**: Identificador da venda associada ao item.
+*	**SKU**: Código do produto.
+*	**Qtde_vendida**: Quantidade vendida do item.
+
+### Tabela de Localidades
+![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20LOCALIDADES.png)
+
+Descrição: Armazena informações geográficas. Segue abaixo os campos:
+
+*	**Id_localidade**: Identificador único de cada localidade
+*	**País**: nome do país
+*	**Continente**: nome do continente
+
+### Tabela de Lojas
+![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20LOJAS.png)
+
+Descrição: Esta tabela contém informações detalhadas sobre as lojas da empresa, essenciais para a análise de desempenho e gestão operacional. Segue os campos:
+
+*	**Id_loja**: Identificador único de cada loja.
+*	**Nome_loja**: Nome da loja.
+*	**Quantidade_Colaboradores**: Número de colaboradores que trabalham na loja.
+*	**Tipo**: Tipo de loja (por exemplo, física, online ou híbrida).
+*	**Id_localidade**: Identificador da localidade onde a loja está situada, facilitando a correlação com dados geográficos.
+*	**Gerente_Loja**: Nome do gerente responsável pela loja.
+*	**Documento_Gerente**: Documento de identificação do gerente da loja.
 
 
+### Tabela de Produtos
+![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20PRODUTOS.png)
 
+Descrição: Armazena informações sobre os produtos vendidos. Segue abaixo os campos: 
 
+*	**SKU**: Código único do produto, utilizado para identificação e rastreamento.
+*	**Produto**: Nome do produto.
+*	**Marca**: Marca do produto.
+*	**Tipo_Produto**: Categoria ou tipo do produto.
+*	**Preco_Unitario**: Preço unitário do produto.
+*	**Custo_Unitario**: Custo unitário do produto.
+*	**Observação**: Campo para observações adicionais sobre o produto.
 
+### Tabela de Vendas
+![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20VENDAS.png)
 
+Descrição: Esta tabela registra todas as vendas realizadas, fornecendo um histórico completo das transações de venda.
 
-
-
-
-
-
-
-
-
+*	**Id_venda**: Identificador único de cada venda.
+*	**Data_venda**: Data em que a venda foi realizada.
+*	**Id_cliente**: Identificador do cliente que realizou a compra.
+*	**Id_loja**: Identificador da loja onde a venda foi efetuada.
 
 
 
