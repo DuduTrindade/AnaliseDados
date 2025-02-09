@@ -16,7 +16,7 @@ facilitando sua compreensão, reprodução e oferecendo uma oportunidade enrique
 * #### [Análises de dados com SQL](https://github.com/DuduTrindade/Analises_de_Dados/blob/main/Projetos/projeto.md#an%C3%A1lise-de-dados-com-sql)
 
 
-## ![](https://github.com/DuduTrindade/AnaliseDados/blob/main/imagens/link.png) Contato 
+## ![](https://github.com/DuduTrindade/AnaliseDados/tree/main/Projetos) Contato 
 
 Sinta-se à vontade para entrar em contato comigo a qualquer momento, estarei à disposição para ajudar no que for necessário.
 
