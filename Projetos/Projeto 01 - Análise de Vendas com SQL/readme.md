@@ -146,11 +146,12 @@ Descrição: Esta tabela registra todas as vendas realizadas, fornecendo um hist
 
 > 📝**Pergunta 1: Qual é a distribuição de clientes por gênero em cada faixa etária?**
 <div  style="display: inline-block">
-<img align="center" width='650' height = '450' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/query%20clientes.png"/>
- <img align="center" width='300' height = '250' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/Resultado%20analise%20cliente.png"/>
+	<img align="center" width='650' height = '450' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/query%20clientes.png"/>
+	<img align="center" width='300' height = '250' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/Resultado%20analise%20cliente.png"/>
 </div>
 
-
+<br>
+<br>
 
 
 
