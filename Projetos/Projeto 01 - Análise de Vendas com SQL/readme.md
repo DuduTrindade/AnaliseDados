@@ -182,12 +182,10 @@ ORDER BY Faixa_Etaria, Total_Genero DESC;
 ~~~
 	
 <div style="display: inline-block">
- <img align="center" width='40' height = '45' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/Resultado%20analise%20cliente.png"/>&nbsp;&nbsp;
- <img align="center" width='40' height = '40' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/GRAFICO%20CLIENTES.png"/>
+ <img align="center" width='400' height = '450' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/Resultado%20analise%20cliente.png"/><br>
+ <img align="center" width='400' height = '400' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/GRAFICO%20CLIENTES.png"/>
 </div>  
 
-![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/Resultado%20analise%20cliente.png)
-![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/GRAFICO%20CLIENTES.png)
 
 Observando o gráfico percebe-se que a faixa etária de 26-35 possui um número clientes de 6003 que representa um total de 33% do total geral, sendo que o percentual masculino é de 17% 
 e feminino de 16%. A faixa de 36-45 possui um número de 5230 de clientes representando 29% do total geral, sendo 15% masculino e 14% feminino.
