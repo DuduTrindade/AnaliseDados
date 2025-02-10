@@ -173,7 +173,7 @@ SELECT
 		WHEN Faixa_Etaria = 4 THEN '36-45' -- Faixa 4 corresponde ao intervalo '36-45 anos'.
 		WHEN Faixa_Etaria = 5 THEN '46-55' -- Faixa 5 corresponde ao intervalo '46-55 anos'.
 		WHEN Faixa_Etaria = 6 THEN '56-65' -- Faixa 6 corresponde ao intervalo '56-65 anos'.
-		ELSE '66+'						   -- Faixa 7 corresponde ao intervalo '66 anos ou mais'.
+		ELSE '66+'					-- Faixa 7 corresponde ao intervalo '66 anos ou mais'.
 	END	Faixa_Etaria,
 	COUNT(Faixa_Etaria) AS Total_Genero
 FROM CTE_Distribuicao_Genero
