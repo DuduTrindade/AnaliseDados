@@ -34,7 +34,7 @@ respectivos relacionamentos.
 
 <div align="center">
  <img align="center" width='220' height = '350' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/SCHEMA.png"/><br><br>
- <img align="center" width='650' height = '600' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/DIAGRAMA%20VENDAS.png"/>
+ <img align="center" width='700' height = '500' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/DIAGRAMA%20VENDAS.png"/>
 </div>  
 
 
