@@ -31,7 +31,8 @@ O conjunto de dados é composto pelas seguintes tabelas:
 
 Nesta análise estou utilizando o Sistema de Gerenciamento de Banco de Dados (SGBD) SQL Server da Microsoft. Abaixo segue o diagrama do banco chamado **Analise_Vendas** e seus 
 respectivos relacionamentos.
-<div>
+
+<div style="text-align: center;">
 	<img width="800" align="center" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/diagrama.png">
 </div>
 
