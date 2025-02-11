@@ -33,7 +33,7 @@ Nesta análise estou utilizando o Sistema de Gerenciamento de Banco de Dados (SG
 respectivos relacionamentos.
 
 <div style="display: inline-block;">
-	<img align="center" width="800" height="800" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/diagrama.png">
+	<img align="center" width="800" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/diagrama.png">
 </div>
 
 
