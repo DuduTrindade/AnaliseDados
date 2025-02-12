@@ -255,7 +255,7 @@ ORDER BY Qtde_Totais_Devolucao DESC;
 ~~~~
 
 <div align="center" style="display: inline-block;">
-	<img width="350" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/distrib.%20clientes%20.png"><br><br>
+	<img width="350" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/motivo_devolucao.png">
 	
 </div> 
 <br>
