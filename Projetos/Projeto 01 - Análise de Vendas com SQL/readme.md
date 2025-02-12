@@ -209,7 +209,12 @@ FROM CTE_Distribuicao_Genero
 GROUP BY Faixa_Etaria, Genero
 ORDER BY Faixa_Etaria, Total_Genero DESC;
 ~~~
-	
+
+<div style="display: inline-block;">
+	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/Resultado%20analise%20cliente.png">
+	<img width="700" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/GRAFICO%20CLIENTES.png">
+</div>
+
 <div align="center">
  <img align="center" width='250' height = '220' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/Resultado%20analise%20cliente.png"/><br><br>
  <img align="center" width='650' height = '380' src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/GRAFICO%20CLIENTES.png"/>
