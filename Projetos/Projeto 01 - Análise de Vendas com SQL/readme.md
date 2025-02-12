@@ -104,7 +104,7 @@ Descrição: Armazena informações geográficas. Segue abaixo os campos:
 ### Tabela de Lojas
 
 <div style="display: inline-block;">
-	<img width="700" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20LOJAS.png">
+	<img width="650" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20LOJAS.png">
 </div>
 
 
@@ -121,7 +121,12 @@ Descrição: Esta tabela contém informações detalhadas sobre as lojas da empr
 
 
 ### Tabela de Produtos
-![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20PRODUTOS.png)
+
+<div style="display: inline-block;">
+	<img width="650" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20PRODUTOS.png">
+</div>
+
+
 
 Descrição: Armazena informações sobre os produtos vendidos. Segue abaixo os campos: 
 
