@@ -102,7 +102,12 @@ Descrição: Armazena informações geográficas. Segue abaixo os campos:
 *	**Continente**: nome do continente
 
 ### Tabela de Lojas
-![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20LOJAS.png)
+
+<div style="display: inline-block;">
+	<img width="800" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20LOJAS.png">
+</div>
+
+
 
 Descrição: Esta tabela contém informações detalhadas sobre as lojas da empresa, essenciais para a análise de desempenho e gestão operacional. Segue os campos:
 
