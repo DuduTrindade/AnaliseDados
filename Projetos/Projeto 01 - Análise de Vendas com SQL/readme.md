@@ -29,17 +29,11 @@ O conjunto de dados é composto pelas seguintes tabelas:
 *	**Produtos**: Armazena informações sobre os produtos vendidos.
 *	**Vendas**: Registra as vendas realizadas.
 
-Nesta análise estou utilizando o Sistema de Gerenciamento de Banco de Dados (SGBD) SQL Server da Microsoft. Abaixo segue o diagrama do banco chamado **Analise_Vendas** e seus 
-respectivos relacionamentos.
+Nesta análise estou utilizando o Sistema de Gerenciamento de Banco de Dados (SGBD) SQL Server da Microsoft. Abaixo segue aimagem do Diagrama Entidade Relacionamento e seus respectivos relacionamentos.
 
 <div align="center" style="display: inline-block;">
 	<img width="700" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/DIAGRAMA%20VENDAS.png">
 </div>
-
-
-
-
-
 
 
 ## Análise Explorativa dos Dados
@@ -48,7 +42,11 @@ Nesta etapa, realizaremos uma análise exploratória das tabelas disponíveis pa
 análise é fundamental para obter insights e preparar o terreno para futuras análises mais aprofundadas.
 
 ### Tabela de Clientes
-![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELAS%20CLIENTES.png) 
+
+<div align="center" style="display: inline-block;">
+	<img width="700" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELAS%20CLIENTES.png">
+</div>
+
 
 Descrição: Esta tabela contém informações dos clientes. Segue abaixo os campos:
 
