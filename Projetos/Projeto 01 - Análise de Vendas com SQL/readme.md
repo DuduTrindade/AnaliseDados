@@ -2,6 +2,8 @@
 
 
 ## Introdução
+
+<p style="text-align: justify;">
 No mundo atual, onde os dados são considerados o novo petróleo, a capacidade de analisar as informações de maneira eficaz tornou-se essencial para as empresas que 
 buscam se manter competitivas. A análise de dados de vendas é uma das áreas mais críticas, pois permite entender o comportamento do consumidor, identificar tendências 
 de mercado e otimizar estratégias de vendas.
@@ -16,7 +18,7 @@ empresas.
 Ao longo desta análise, utilizarei SQL para explorar e interpretar dados de vendas, buscando respostas para perguntas estratégicas que podem orientar decisões empresariais.
 Desde a identificação dos produtos mais vendidos até a análise das taxas de devolução por loja, cada consulta SQL nos fornecerá insights que podem ser transformados em ações
 concretas para melhorar o desempenho da empresa.. Retornar ao [início.](https://github.com/DuduTrindade/AnaliseDados/tree/main?tab=readme-ov-file#todos-os-meus-projetos)
-
+</p>
 
 ## Estrutura do Conjunto de Dados
 
@@ -38,8 +40,7 @@ Nesta análise estou utilizando o Sistema de Gerenciamento de Banco de Dados (SG
 
 ## Análise Explorativa dos Dados
 
-Nesta etapa, realizaremos uma análise exploratória das tabelas disponíveis para entender como os dados estão organizados e identificar as informações mais relevantes. Essa 
-análise é fundamental para obter insights e preparar o terreno para futuras análises mais aprofundadas.
+Nesta etapa, realizaremos uma análise exploratória das tabelas disponíveis para entender como os dados estão organizados e identificar as informações mais relevantes. Essa análise é fundamental para obter insights e preparar o terreno para futuras análises mais aprofundadas.
 
 ### Tabela de Clientes
 
