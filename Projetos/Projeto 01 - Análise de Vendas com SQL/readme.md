@@ -141,7 +141,7 @@ Descrição: Armazena informações sobre os produtos vendidos. Segue abaixo os 
 ### Tabela de Vendas
 
 <div style="display: inline-block;">
-	<img width="650" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20VENDAS.png">
+	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20VENDAS.png">
 </div>
 
 
