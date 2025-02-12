@@ -4,7 +4,7 @@
 ## Introdução
 
 <div style="display: inline-block; width: 100%;">
-    <p style="text-align: justify; font-size: 16px; font-family: Arial, sans-serif;">
+<p style="text-align: justify; font-size: 16px; font-family: Arial, sans-serif;">
 		No mundo atual, onde os dados são considerados o novo petróleo, a capacidade de analisar as informações de maneira eficaz tornou-se essencial para as empresas que 
 		buscam se manter competitivas. A análise de dados de vendas é uma das áreas mais críticas, pois permite entender o comportamento do consumidor, identificar tendências 
 		de mercado e otimizar estratégias de vendas.
@@ -18,8 +18,8 @@
 
 		Ao longo desta análise, utilizarei SQL para explorar e interpretar dados de vendas, buscando respostas para perguntas estratégicas que podem orientar decisões empresariais.
 		Desde a identificação dos produtos mais vendidos até a análise das taxas de devolução por loja, cada consulta SQL nos fornecerá insights que podem ser transformados em ações
-		concretas para melhorar o desempenho da empresa.. Retornar ao [início.](https://github.com/DuduTrindade/AnaliseDados/tree/main?tab=readme-ov-file#todos-os-meus-projetos)
-	</p>
+		concretas para melhorar o desempenho da empresa.. Retornar ao [início.](https://github.com/DuduTrindade/AnaliseDados/tree/in?tab=readme-ov-file#todos-os-meus-projetos)
+</p>
 </div>
 
 ## Estrutura do Conjunto de Dados
