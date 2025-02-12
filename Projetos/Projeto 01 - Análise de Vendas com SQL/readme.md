@@ -88,7 +88,12 @@ Descrição: Esta tabela detalha os itens vendidos em cada transação. Segue ab
 *	**Qtde_vendida**: Quantidade vendida do item.
 
 ### Tabela de Localidades
-![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20LOCALIDADES.png)
+
+<div style="display: inline-block;">
+	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20LOCALIDADES.png">
+</div>
+
+
 
 Descrição: Armazena informações geográficas. Segue abaixo os campos:
 
