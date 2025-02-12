@@ -216,7 +216,7 @@ ORDER BY Faixa_Etaria, Total_Genero DESC;
 </div> 
 <br>
 Observando o gráfico percebe-se que a faixa etária de 26-35 possui um número clientes de 6003 que representa um total de 33% do total geral, sendo que o percentual masculino é de 17% e feminino de 16%. A faixa de 36-45 possui um número de 5230 de clientes representando 29% do total geral, sendo 15% masculino e 14% feminino. A faixa etária de 46-55 tem soma um total de 3057 com percentual de 17% do total geral, sendo que 9% são femininos e 8% masculinos. Essas três faixas representam um total de 79% dos clientes.
-<br>
+<br><br><br>
 
 
 > 📝**Pergunta 2: Qual é a distribuição Distribuição Geográfica dos Clientes?**
