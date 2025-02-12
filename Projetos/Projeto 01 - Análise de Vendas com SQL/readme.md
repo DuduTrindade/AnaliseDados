@@ -9,7 +9,7 @@ No mundo atual, onde os dados são considerados o novo petróleo, a capacidade d
 
 Analisarei dados de uma empresa fictícia de varejo que atua no segmento de eletrônicos, oferecendo desde dispositivos móveis e computadores até acessórios tecnológicos de ponta. Com presença em múltiplos continentes e operando tanto online quanto em lojas físicas, a empresa atende uma base diversificada de clientes: indivíduos, pequenas e grandes 	empresas. 
 
-Ao longo desta análise, utilizarei SQL para explorar e interpretar dados de vendas, buscando respostas para perguntas estratégicas que podem orientar decisões empresariais. Desde a identificação dos produtos mais vendidos até a análise das taxas de devolução por loja, cada consulta SQL nos fornecerá insights que podem ser transformados em ações concretas para melhorar o desempenho da empresa.. Retornar ao [início.](https://github.com/DuduTrindade/AnaliseDados/tree/in?tab=readme-ov-file#todos-os-meus-projetos)
+Ao longo desta análise, utilizarei SQL para explorar e interpretar dados de vendas, buscando respostas para perguntas estratégicas que podem orientar decisões empresariais. Desde a identificação dos produtos mais vendidos até a análise das taxas de devolução por loja, cada consulta SQL nos fornecerá insights que podem ser transformados em ações concretas para melhorar o desempenho da empresa. Retornar ao [início.](https://github.com/DuduTrindade/AnaliseDados/tree/in?tab=readme-ov-file#todos-os-meus-projetos)
 </p>
 </div>
 
@@ -172,7 +172,7 @@ Descrição: Esta tabela registra todas as vendas realizadas, fornecendo um hist
 ### Análises
 
 
-> 📝**Pergunta 1: Qual é a distribuição de clientes por gênero em cada faixa etária?**
+> 📝**Pergunta 1: Distribuição de Clientes por Gênero e Faixa Etária**
 
 ~~~SQL
 -- CTE para calcular qual é a distribuição de clientes por gênero em cada faixa etária
@@ -219,7 +219,7 @@ Observando o gráfico percebe-se que a faixa etária de 26-35 possui um número 
 <br><br>
 
 
-> 📝**Pergunta 2: Qual é a distribuição Distribuição Geográfica dos Clientes?**
+> 📝**Pergunta 2: Distribuição Geográfica de Clientes**
 
 ~~~sql
 SELECT 
@@ -241,7 +241,24 @@ ORDER BY L.Continente, Total_Clientes DESC;
 A distribuição por continente revela que a Europa abriga aproximadamente 49,7% dos clientes, em relação ao total de 18.148 clientes. Já a Ásia possui 7.536 clientes, representando 41,5% do total. Os continentes América do Norte e Oceania abrigam cerca de 5,9% e 2,8% dos clientes, respectivamente.
 O gráfico de coluna mostra os top 10 principais países onde a empresa mais possui clientes, e revelam que 4 deles estão na Europa (Dinamarca, Suécia, Itália e Alemanha), 5 estão na Ásia (Coreia do Sul, Japão, China, Paquistão e Singapura) e 1 está na América do Norte (Estados Unidos).
 
+<br><br>
 
+> 📝**Pergunta 3: Motivos de Devolução dos Produtos**
+
+~~~sql
+SELECT 
+	Motivo_Devolucao,
+	COUNT(*) AS Qtde_Totais_Devolucao
+FROM Devolucoes
+GROUP BY Motivo_Devolucao
+ORDER BY Qtde_Totais_Devolucao DESC;
+~~~~
+
+<div align="center" style="display: inline-block;">
+	<img width="350" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/distrib.%20clientes%20.png"><br><br>
+	
+</div> 
+<br>
 
 
 
