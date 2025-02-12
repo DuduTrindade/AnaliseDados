@@ -233,8 +233,8 @@ ORDER BY L.Continente, Total_Clientes DESC;
 ~~~
 
 <div style="display: inline-block;">
-	<img width="350" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/distrib.%20clientes%20.png">
-	<img width="700" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/analise_cliente.png">
+	<img width="350" align="center" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/distrib.%20clientes%20.png">
+	<img width="700" align="center" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/analise_cliente.png">
 </div> 
 <br>
 
