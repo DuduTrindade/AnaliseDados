@@ -27,7 +27,7 @@ O conjunto de dados é composto pelas seguintes tabelas:
 Nesta análise estou utilizando o Sistema de Gerenciamento de Banco de Dados (SGBD) SQL Server da Microsoft. Abaixo segue a imagem do Diagrama Entidade Relacionamento e seus respectivos relacionamentos.
 
 <div align="center" style="display: inline-block;">
-	<img width="600" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/DIAGRAMA%20VENDAS.png">
+	<img  width="600" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/DIAGRAMA%20VENDAS.png">
 </div>
 
 
@@ -139,7 +139,12 @@ Descrição: Armazena informações sobre os produtos vendidos. Segue abaixo os 
 *	**Observação**: Campo para observações adicionais sobre o produto.
 
 ### Tabela de Vendas
-![](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20VENDAS.png)
+
+<div style="display: inline-block;">
+	<img width="650" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20VENDAS.png">
+</div>
+
+
 
 Descrição: Esta tabela registra todas as vendas realizadas, fornecendo um histórico completo das transações de venda.
 
