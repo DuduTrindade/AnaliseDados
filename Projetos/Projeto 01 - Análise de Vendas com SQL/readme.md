@@ -44,7 +44,7 @@ análise é fundamental para obter insights e preparar o terreno para futuras an
 ### Tabela de Clientes
 
 <div style="display: inline-block;">
-	<img src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELAS%20CLIENTES.png">
+	<img width="850" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELAS%20CLIENTES.png">
 </div>
 
 
