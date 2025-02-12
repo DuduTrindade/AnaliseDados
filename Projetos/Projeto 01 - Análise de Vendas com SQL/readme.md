@@ -3,7 +3,7 @@
 
 ## Introdução
 
-<div style="display: inline-block; width: 100%;">
+<div style="display: inline-block; width: 100%; style="text-align: justify; font-size: 16px; font-family: Arial, sans-serif;">
 <p style="text-align: justify; font-size: 16px; font-family: Arial, sans-serif;">
 No mundo atual, onde os dados são considerados o novo petróleo, a capacidade de analisar as informações de maneira eficaz tornou-se essencial para as empresas que buscam se manter competitivas. A análise de dados de vendas é uma das áreas mais críticas, pois permite entender o comportamento do consumidor, identificar tendências de mercado e otimizar estratégias de vendas. Neste contexto, o SQL (Structured Query Language) se destaca como uma ferramenta poderosa para a análise de dados. Utilizada amplamente em sistemas de gerenciamento de banco de dados, a linguagem SQL permite consultar, manipular e extrair informações valiosas de grandes conjuntos de dados de maneira rápida e eficiente.
 
