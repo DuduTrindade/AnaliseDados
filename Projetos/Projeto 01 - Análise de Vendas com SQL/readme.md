@@ -3,7 +3,7 @@
 
 ## Introdução
 
-<p style="text-align: justify;">
+<p align="justify">
 No mundo atual, onde os dados são considerados o novo petróleo, a capacidade de analisar as informações de maneira eficaz tornou-se essencial para as empresas que 
 buscam se manter competitivas. A análise de dados de vendas é uma das áreas mais críticas, pois permite entender o comportamento do consumidor, identificar tendências 
 de mercado e otimizar estratégias de vendas.
