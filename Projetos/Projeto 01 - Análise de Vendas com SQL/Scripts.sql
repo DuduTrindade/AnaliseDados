@@ -51,7 +51,7 @@ ORDER BY Faixa_Etaria, Total_Genero DESC;
 
 
 
--- Pergunta 2: Quantos clientes temos em cada país?
+-- Pergunta 2: Distribuição Geográfica de Clientes?
 
 SELECT 
 	L.Continente,	
