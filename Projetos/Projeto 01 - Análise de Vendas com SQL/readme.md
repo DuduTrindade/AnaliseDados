@@ -27,7 +27,7 @@ O conjunto de dados é composto pelas seguintes tabelas:
 Nesta análise estou utilizando o Sistema de Gerenciamento de Banco de Dados (SGBD) SQL Server da Microsoft. Abaixo segue a imagem do Diagrama Entidade Relacionamento e seus respectivos relacionamentos.
 
 <div align="center" style="display: inline-block;">
-	<img width="700" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/DIAGRAMA%20VENDAS.png">
+	<img width="600" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/DIAGRAMA%20VENDAS.png">
 </div>
 
 
