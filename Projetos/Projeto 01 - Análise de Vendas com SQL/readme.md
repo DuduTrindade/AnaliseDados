@@ -241,7 +241,7 @@ ORDER BY L.Continente, Total_Clientes DESC;
 A distribuição por continente revela que a Europa abriga aproximadamente 49,7% dos clientes, em relação ao total de 18.148 clientes. Já a Ásia possui 7.536 clientes, representando 41,5% do total. Os continentes América do Norte e Oceania abrigam cerca de 5,9% e 2,8% dos clientes, respectivamente.
 O gráfico de coluna mostra os top 10 principais países onde a empresa mais possui clientes, e revelam que 4 deles estão na Europa (Dinamarca, Suécia, Itália e Alemanha), 5 estão na Ásia (Coreia do Sul, Japão, China, Paquistão e Singapura) e 1 está na América do Norte (Estados Unidos).
 
-<br><br>
+<br>
 
 > 📝**Pergunta 3: Motivos de Devolução dos Produtos**
 
@@ -260,7 +260,7 @@ ORDER BY Qtde_Totais_Devolucao DESC;
 </div> 
 <br>
 
-
+Analisando quais são os motivos mais frequentes devolução descobrimos que defeito, é o principal motivo com 1.600 ocorrências, representando 88% do total de devoluções que é 1809. Arrependimento com 104 ocorrências representa 6% e Troca Indisponível e Não Informado representam 3% cada.
 
 
 
