@@ -355,22 +355,22 @@ Agora que realizamos a análise exploratória e entendemos melhor os dados iremo
 
 ### Análise Comparativa
 
-[ * ] Comparação entre faturamento e lucro ao longo do tempo;
-Comparação do lucro entre as marcas;
-Comparação do lucro entre os canais de vendas;
-Visão geral sobre cada loja; 
-Comparação do lucro entre os países.
+[x] Comparação entre faturamento e lucro ao longo do tempo;<br>
+Comparação do lucro entre as marcas;<br>
+Comparação do lucro entre os canais de vendas;<br>
+Visão geral sobre cada loja; <br>
+Comparação do lucro entre os países.<br>
 
 ### KPIs
 
 Principais indicadores chaves de desempenho (key performance indicator ou KPI) consolidados:
 
-Faturamento total;
-Lucro;
-Número de vendas;
-Número de devoluções;
-Custo total;
-Margem de lucro.
+Faturamento total;<br>
+Lucro;<br>
+Número de vendas;<br>
+Número de devoluções;<br>
+Custo total;<br>
+Margem de lucro.<br>
 
 
 
