@@ -355,7 +355,7 @@ Agora que realizamos a análise exploratória e entendemos melhor os dados iremo
 
 ### Análise Comparativa
 
-[ * ]Comparação entre faturamento e lucro ao longo do tempo;
+[ * ] Comparação entre faturamento e lucro ao longo do tempo;
 Comparação do lucro entre as marcas;
 Comparação do lucro entre os canais de vendas;
 Visão geral sobre cada loja; 
