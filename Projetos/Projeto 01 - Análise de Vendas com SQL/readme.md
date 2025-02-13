@@ -261,6 +261,52 @@ ORDER BY Qtde_Totais_Devolucao DESC;
 
 Analisando quais são os motivos mais frequentes devolução descobrimos que defeito, é o principal motivo com 1.600 ocorrências, representando 88% do total de devoluções que é 1809. Arrependimento com 104 ocorrências representa 6% e Troca Indisponível e Não Informado representam 3% cada.
 
+> 📝**Pergunta 3: Taxa de Devoluções:**Por Produto
+
+~~~sql
+-- View para calcular a taxa de devolução 
+
+CREATE VIEW vw_Taxa_Devolucao_Produtos AS
+	-- -- CTE para calcular o total de devoluções por produto
+	WITH Devolucoes_Totais AS (
+		SELECT
+			D.SKU,
+			SUM(D.Qtd_Devolvida) AS Totais_Devolucao
+		FROM Devolucoes D 
+		GROUP BY D.SKU
+	),
+
+	-- CTE para calcular o total de vendas por produto
+	Vendas_Totais AS (
+		SELECT
+			I.SKU,
+			SUM(I.Qtd_Vendida) AS Total_Vendido
+		FROM Itens I INNER JOIN Vendas V ON V.Id_Venda = I.Id_Venda
+		GROUP BY I.SKU
+	)	
+	SELECT 
+		P.Produto AS Produto,
+		P.Tipo_Produto AS Tipo_Produto,
+		P.Marca AS Marca,
+		VT.Total_Vendido AS Total_Vendido,
+		DT.Totais_Devolucao AS Totais_Devolucao,
+		(DT.Totais_Devolucao * 100.0 / VT.Total_Vendido) AS [Taxa_Devolucao%]
+	FROM Produtos P 
+	INNER JOIN Vendas_Totais VT ON P.SKU = VT.SKU
+	INNER JOIN Devolucoes_Totais DT ON DT.SKU = P.SKU
+	GROUP BY P.Produto, P.Tipo_Produto, P.Marca, VT.Total_Vendido, DT.Totais_Devolucao;
+
+
+SELECT 
+	* 
+FROM vw_Taxa_Devolucao_Produtos
+ORDER BY [Taxa_Devolucao%] DESC;
+~~~
+
+
+
+
+
 
 
 <br><br><br><br>
