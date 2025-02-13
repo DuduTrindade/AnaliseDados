@@ -355,11 +355,11 @@ Agora que realizamos a análise exploratória e entendemos melhor os dados iremo
 
 ### Análise Comparativa
 
-[x] Comparação entre faturamento e lucro ao longo do tempo;<br>
-Comparação do lucro entre as marcas;<br>
-Comparação do lucro entre os canais de vendas;<br>
-Visão geral sobre cada loja; <br>
-Comparação do lucro entre os países.<br>
+- [x] Comparação entre faturamento e lucro ao longo do tempo;<br>
+- [x] Comparação do lucro entre as marcas;<br>
+- [x] Comparação do lucro entre os canais de vendas;<br>
+- [x] Visão geral sobre cada loja; <br>
+- [x] Comparação do lucro entre os países.<br>
 
 ### KPIs
 
