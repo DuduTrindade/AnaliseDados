@@ -316,7 +316,21 @@ Além disso, podemos realizar uma análise complementar calculando a média da t
 
 #### Tipo Produto
 
+~~~sql
+SELECT
+		Tipo_Produto,		
+		SUM(Totais_Devolucao) / SUM(Total_Vendido) * 100
+		[Taxa_Devolucao%]
+FROM vw_Taxa_Devolucao_Produtos
+GROUP BY Tipo_Produto
+ORDER BY [Taxa_Devolucao%] DESC
 
+~~~
+
+<div align="center" style="display: inline-block;">
+	<img width="350" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/devolucao_tipo_produto.png">	
+</div> 
+<br>
 
 
 
