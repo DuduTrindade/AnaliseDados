@@ -263,7 +263,7 @@ Analisando quais são os motivos mais frequentes devolução descobrimos que def
 
 > 📝**Pergunta 4: Taxa de Devoluções:**
 
-### Produtos
+
 
 ~~~sql
 -- View para calcular a taxa de devolução 
@@ -305,7 +305,7 @@ FROM vw_Taxa_Devolucao_Produtos
 ORDER BY [Taxa_Devolucao%] DESC;
 ~~~
 
-
+##### Produtos
 
 
 
