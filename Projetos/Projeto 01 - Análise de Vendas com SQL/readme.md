@@ -258,7 +258,7 @@ ORDER BY Qtde_Totais_Devolucao DESC;
 	<img width="350" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/motivo_devolucao.png">	
 </div> 
 
-Analisando quais são os motivos mais frequentes devolução descobrimos que defeito, é o principal motivo com 1.600 ocorrências, representando 88% do total de devoluções que é 1809. Arrependimento com 104 ocorrências representa 6% e Troca Indisponível e Não Informado representam 3% cada.
+Analisando quais são os motivos mais frequentes devolução descobrimos que defeito, é o principal motivo com 1.600 ocorrências, representando 88% do total de devoluções que é 1809. Arrependimento com 104 ocorrências representa 6% e Troca Indisponível e Não Informado representam 3% cada.<br>
 
 > 📝**Pergunta 4: Taxa de Devoluções**
 
@@ -308,8 +308,10 @@ ORDER BY [Taxa_Devolucao%] DESC;
 <div align="center" style="display: inline-block;">
 	<img width="650" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/devolucao_produto.png">	
 </div> 
+<br>
 
-
+O resultado apresenta os 20 produtos com as maiores taxas de devolução, comparando o número total de devoluções com o número total de vendas para cada item. Esta análise é essencial para identificar produtos que podem precisar de melhorias ou revisões nas suas especificações.
+Além disso, podemos realizar uma análise complementar calculando a média da taxa de devolução por categoria de produto e marca. Dessa forma, podemos identificar quais categorias e marcas apresentam as maiores taxas de devolução e, consequentemente, focar em estratégias para reduzir essas taxas.
 
 
 
