@@ -261,7 +261,9 @@ ORDER BY Qtde_Totais_Devolucao DESC;
 
 Analisando quais são os motivos mais frequentes devolução descobrimos que defeito, é o principal motivo com 1.600 ocorrências, representando 88% do total de devoluções que é 1809. Arrependimento com 104 ocorrências representa 6% e Troca Indisponível e Não Informado representam 3% cada.
 
-> 📝**Pergunta 3: Taxa de Devoluções:**
+> 📝**Pergunta 4: Taxa de Devoluções:**
+
+### Produtos
 
 ~~~sql
 -- View para calcular a taxa de devolução 
