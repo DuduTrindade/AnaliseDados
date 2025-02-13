@@ -365,12 +365,12 @@ Agora que realizamos a análise exploratória e entendemos melhor os dados iremo
 
 Principais indicadores chaves de desempenho (key performance indicator ou KPI) consolidados:
 
-Faturamento total;<br>
-Lucro;<br>
-Número de vendas;<br>
-Número de devoluções;<br>
-Custo total;<br>
-Margem de lucro.<br>
+- [x] Faturamento total;<br>
+- [x] Lucro;<br>
+- [x] Número de vendas;<br>
+- [x] Número de devoluções;<br>
+- [x] Custo total;<br>
+- [x] Margem de lucro.<br>
 
 
 
