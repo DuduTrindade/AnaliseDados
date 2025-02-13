@@ -302,7 +302,7 @@ FROM vw_Taxa_Devolucao_Produtos
 ORDER BY [Taxa_Devolucao%] DESC;
 ~~~
 
-#### Produtos
+#### Produto
 
 
 <div align="center" style="display: inline-block;">
@@ -314,7 +314,7 @@ O resultado apresenta os 20 produtos com as maiores taxas de devolução, compar
 Além disso, podemos realizar uma análise complementar calculando a média da taxa de devolução por categoria de produto e marca. Dessa forma, podemos identificar quais categorias e marcas apresentam as maiores taxas de devolução e, consequentemente, focar em estratégias para reduzir essas taxas.
 
 
-
+#### Tipo Produto
 
 
 
