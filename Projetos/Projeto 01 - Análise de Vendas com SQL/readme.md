@@ -318,9 +318,9 @@ Além disso, podemos realizar uma análise complementar calculando a média da t
 
 ~~~sql
 SELECT
-		Tipo_Produto,		
-		SUM(Totais_Devolucao) / SUM(Total_Vendido) * 100
-		[Taxa_Devolucao%]
+	Tipo_Produto,		
+	SUM(Totais_Devolucao) / SUM(Total_Vendido) * 100
+	[Taxa_Devolucao%]
 FROM vw_Taxa_Devolucao_Produtos
 GROUP BY Tipo_Produto
 ORDER BY [Taxa_Devolucao%] DESC
