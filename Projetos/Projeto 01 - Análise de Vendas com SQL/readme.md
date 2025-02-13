@@ -344,7 +344,33 @@ GROUP BY Marca
 ORDER BY [Taxa_Devolucao%] DESC
 ~~~
 
+<div align="center" style="display: inline-block;">
+	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/devolucao_marca.png">	
+</div> 
+<br>
 
+
+## Exploração Interativa dos Dados 
+Agora que realizamos a análise exploratória e entendemos melhor os dados iremos comparar diferentes métricas e dimensões para identificar os pontos fortes e fracos, avaliar o impacto de diferentes estratégias para uma melhor tomada de decisão.
+
+### Análise Comparativa
+
+[ * ]Comparação entre faturamento e lucro ao longo do tempo;
+Comparação do lucro entre as marcas;
+Comparação do lucro entre os canais de vendas;
+Visão geral sobre cada loja; 
+Comparação do lucro entre os países.
+
+### KPIs
+
+Principais indicadores chaves de desempenho (key performance indicator ou KPI) consolidados:
+
+Faturamento total;
+Lucro;
+Número de vendas;
+Número de devoluções;
+Custo total;
+Margem de lucro.
 
 
 
