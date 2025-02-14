@@ -193,11 +193,10 @@ ORDER BY [Taxa_Devolucao_por_Loja%] DESC;
 	DENSE_RANK() OVER(ORDER BY SUM(I.Qtd_Vendida * P.Preço_Unitario) DESC) AS [Rank],
 	I.SKU,
 	P.Produto AS Nome,
-	COUNT(I.Qtd_Vendida) AS Qtde_Vendas,
-	SUM(I.Qtd_Vendida * P.Preço_Unitario) AS Total
+	SUM(I.Qtd_Vendida * P.Preço_Unitario) AS Total_Vendido
 FROM Produtos P INNER JOIN Itens I ON P.SKU = I.SKU
 GROUP BY I.SKU, P.Produto	
-ORDER BY Total DESC;
+ORDER BY Total_Vendido DESC;
 
 --Pergunta 6: Qual é a receita total por marca?
 SELECT 

@@ -350,6 +350,29 @@ ORDER BY [Taxa_Devolucao%] DESC
 
 O resultado revela que a marca Vaio tem a maior taxa de devolução 8,3% entre todas as marcas, número bem acima das demais marcas que é de 3%. A partir desses dados podemos investigar os motivos por trás da alta devolução da marca Vaio (ex.: defeitos, falhas frequentes, problemas logísticos).
 
+
+> 📝**Pergunta 5: Produtos Mais Vendidos**
+
+~~~sql
+-- TOP 10 Produtos mais vendidos
+ SELECT TOP 10
+	DENSE_RANK() OVER(ORDER BY SUM(I.Qtd_Vendida * P.Preço_Unitario) DESC) AS [Rank],
+	I.SKU,
+	P.Produto AS Nome,
+	SUM(I.Qtd_Vendida * P.Preço_Unitario) AS Total_Vendido
+FROM Produtos P INNER JOIN Itens I ON P.SKU = I.SKU
+GROUP BY I.SKU, P.Produto	
+ORDER BY Total_Vendido DESC;
+~~~
+
+<div align="center" style="display: inline-block;">
+	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/devolucao_marca.png">	
+</div> 
+<br>
+
+
+
+
 ## Exploração Interativa dos Dados 
 Agora que realizamos a análise exploratória e entendemos melhor os dados iremos comparar diferentes métricas e dimensões para identificar os pontos fortes e fracos, avaliar o impacto de diferentes estratégias para uma melhor tomada de decisão.
 
