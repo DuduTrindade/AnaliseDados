@@ -329,7 +329,7 @@ ORDER BY [Taxa_Devolucao%] DESC
 </div> 
 <br>
 
-A consulta revela que eletrônicos têm uma taxa de devolução de 15%, enquanto vestuário tem apenas 5%, isso pode sugerir que há problemas específicos com os eletrônicos (ex.: defeitos, descrições imprecisas) que precisam ser investigados e corrigidos.
+A consulta revela que eletrônicos (Celular, Notebook, Monitor, Mouse e Teclado) têm uma taxa de devolução de 12%, enquanto vestuário (Camisa e Casaco) tem apenas 4%, isso pode sugerir que há problemas específicos com os eletrônicos (ex.: defeitos, descrições imprecisas) que precisam ser investigados e corrigidos.
 
 #### Marca
 
