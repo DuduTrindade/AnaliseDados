@@ -142,6 +142,27 @@ GROUP BY Marca
 ORDER BY [Taxa_Devolucao%] DESC
 
 
+-- Pergunta 5: Quais são os produtos mais vendidos?
+
+-- TOP 10 Produtos mais vendidos
+ SELECT TOP 10
+	DENSE_RANK() OVER(ORDER BY SUM(I.Qtd_Vendida * P.Preço_Unitario) DESC) AS [Rank],
+	I.SKU,
+	P.Produto AS Nome,
+	SUM(I.Qtd_Vendida * P.Preço_Unitario) AS Total_Vendido
+FROM Produtos P INNER JOIN Itens I ON P.SKU = I.SKU
+GROUP BY I.SKU, P.Produto	
+ORDER BY Total_Vendido DESC;
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -179,24 +200,7 @@ ORDER BY [Taxa_Devolucao_por_Loja%] DESC;
 
 
 
--- =================================================================================
 
-
-
-
--- ############# Análise de Vendas #################
-
--- Pergunta 5: Quais são os produtos mais vendidos?
-
--- TOP 10 Produtos mais vendidos
- SELECT TOP 10
-	DENSE_RANK() OVER(ORDER BY SUM(I.Qtd_Vendida * P.Preço_Unitario) DESC) AS [Rank],
-	I.SKU,
-	P.Produto AS Nome,
-	SUM(I.Qtd_Vendida * P.Preço_Unitario) AS Total_Vendido
-FROM Produtos P INNER JOIN Itens I ON P.SKU = I.SKU
-GROUP BY I.SKU, P.Produto	
-ORDER BY Total_Vendido DESC;
 
 --Pergunta 6: Qual é a receita total por marca?
 SELECT 
