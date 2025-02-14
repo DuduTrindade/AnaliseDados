@@ -167,7 +167,7 @@ Nesta etapa, realizaremos uma análise exploratória das tabelas disponíveis pa
 11) **Categorias de Produtos**: Analisar a distribuição dos produtos por categoria.
 
 
-### Perguntas
+### Análises
 
 
 > 📝**Pergunta 1: Distribuição de Clientes por Gênero e Faixa Etária**
