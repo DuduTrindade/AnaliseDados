@@ -370,7 +370,7 @@ ORDER BY Total_Vendido DESC;
 </div> 
 <br>
 
-Essa consulta ajuda a:
+O resultado ajuda a:
 - Identificar os produtos mais rentáveis e priorizá-los;
 - Criar estratégias de marketing direcionadas.
 - Otimizar estoque e compras com foco nos produtos de alto desempenho.
