@@ -3,15 +3,12 @@
 
 ## Introdução
 
-<div style="display: inline-block; width: 100%; style="text-align: justify; font-size: 16px; font-family: Arial, sans-serif;">
-<p style="text-align: justify; font-size: 16px; font-family: Arial, sans-serif;">
 No mundo atual, onde os dados são considerados o novo petróleo, a capacidade de analisar as informações de maneira eficaz tornou-se essencial para as empresas que buscam se manter competitivas. A análise de dados de vendas é uma das áreas mais críticas, pois permite entender o comportamento do consumidor, identificar tendências de mercado e otimizar estratégias de vendas. Neste contexto, o SQL (Structured Query Language) se destaca como uma ferramenta poderosa para a análise de dados. Utilizada amplamente em sistemas de gerenciamento de banco de dados, a linguagem SQL permite consultar, manipular e extrair informações valiosas de grandes conjuntos de dados de maneira rápida e eficiente.
 
-Analisarei dados de uma empresa fictícia de varejo que atua no segmento de eletrônicos, oferecendo desde dispositivos móveis e computadores até acessórios tecnológicos de ponta. Com presença em múltiplos continentes e operando tanto online quanto em lojas físicas, a empresa atende uma base diversificada de clientes: indivíduos, pequenas e grandes 	empresas. 
+Analisarei dados de uma empresa fictícia de varejo que atua no segmento de eletrônicos e vestuários, oferecendo desde dispositivos móveis, computadores até acessórios tecnológicos de ponta, camisas, casacos e relógios. Com presença em múltiplos continentes e operando tanto online quanto em lojas físicas, a empresa atende uma base diversificada de clientes: indivíduos, pequenas e grandes 	empresas. 
 
 Ao longo desta análise, utilizarei SQL para explorar e interpretar dados de vendas, buscando respostas para perguntas estratégicas que podem orientar decisões empresariais. Desde a identificação dos produtos mais vendidos até a análise das taxas de devolução por loja, cada consulta SQL nos fornecerá insights que podem ser transformados em ações concretas para melhorar o desempenho da empresa. Retornar ao [início.](https://github.com/DuduTrindade/AnaliseDados/tree/in?tab=readme-ov-file#todos-os-meus-projetos)
-</p>
-</div>
+
 
 ## Estrutura do Conjunto de Dados
 
@@ -331,6 +328,8 @@ ORDER BY [Taxa_Devolucao%] DESC
 	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/devolucao_tipo_produto.png">	
 </div> 
 <br>
+
+Se a consulta revelar que eletrônicos têm uma taxa de devolução de 15%, enquanto vestuário tem apenas 5%, isso pode sugerir que há problemas específicos com os eletrônicos (ex.: defeitos, descrições imprecisas) que precisam ser investigados e corrigidos.
 
 #### Marca
 
