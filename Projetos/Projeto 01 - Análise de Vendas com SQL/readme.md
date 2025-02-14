@@ -31,9 +31,6 @@ Nesta análise estou utilizando o Sistema de Gerenciamento de Banco de Dados (SG
 </div>
 
 
-## Análise Explorativa dos Dados
-
-Nesta etapa, realizaremos uma análise exploratória das tabelas disponíveis para entender como os dados estão organizados e identificar as informações mais relevantes. Essa análise é fundamental para obter insights e preparar o terreno para futuras análises mais aprofundadas.
 
 ### Tabela de Clientes
 
@@ -153,6 +150,10 @@ Descrição: Esta tabela registra todas as vendas realizadas, fornecendo um hist
 *	**Id_cliente**: Identificador do cliente que realizou a compra.
 *	**Id_loja**: Identificador da loja onde a venda foi efetuada.
 
+## Análise Explorativa dos Dados
+
+Nesta etapa, realizaremos uma análise exploratória das tabelas disponíveis para entender como os dados estão organizados e identificar as informações mais relevantes. Essa análise é fundamental para obter insights e preparar o terreno para futuras análises mais aprofundadas.
+
 
 ### Perguntas Sugeridas
 
@@ -169,7 +170,7 @@ Descrição: Esta tabela registra todas as vendas realizadas, fornecendo um hist
 11) **Categorias de Produtos**: Analisar a distribuição dos produtos por categoria.
 
 
-### Análises
+### Perguntas
 
 
 > 📝**Pergunta 1: Distribuição de Clientes por Gênero e Faixa Etária**
