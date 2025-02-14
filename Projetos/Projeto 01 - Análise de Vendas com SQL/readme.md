@@ -348,6 +348,7 @@ ORDER BY [Taxa_Devolucao%] DESC
 </div> 
 <br>
 
+O resultado revela que a marca Vaio tem a maior taxa de devolução 8,3% entre todas as marcas, número bem acima das demais marcas que é de 3%.
 
 ## Exploração Interativa dos Dados 
 Agora que realizamos a análise exploratória e entendemos melhor os dados iremos comparar diferentes métricas e dimensões para identificar os pontos fortes e fracos, avaliar o impacto de diferentes estratégias para uma melhor tomada de decisão.
