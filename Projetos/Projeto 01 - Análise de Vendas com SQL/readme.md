@@ -466,7 +466,7 @@ FROM Receita_Total_Continente R
 
 A tabela mostra que as lojas físicas são o principal canal de vendas, mas as vendas online têm uma participação significativa, especialmente na Ásia e Europa. A América do Norte é o mercado mais forte, enquanto a Oceania representa uma oportunidade de crescimento. Investir no canal online e expandir em mercados menores pode impulsionar ainda mais a receita global
 
-> 📝**Pergunta 7: Concentração de Lojas**
+> 📝**Pergunta 8: Concentração de Lojas**
 
 
 

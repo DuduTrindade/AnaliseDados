@@ -203,7 +203,7 @@ FROM Receita_Total_Continente R
 
 
 
-
+-- Pergunta 8: Concentração de Lojas
 
 
 
