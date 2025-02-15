@@ -397,6 +397,11 @@ FROM CTE_Vendas
 ORDER BY Ano, Mes;
 ~~~
 
+<div align="center" style="display: inline-block;">
+	<img width="500" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/analise_temporal_vendas.png">	
+</div> 
+<br>
+
 
 
 ## Exploração Interativa dos Dados 
