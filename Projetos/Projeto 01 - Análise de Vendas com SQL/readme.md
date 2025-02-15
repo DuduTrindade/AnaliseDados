@@ -160,7 +160,7 @@ Nesta etapa, realizaremos uma análise exploratória das tabelas disponíveis pa
 4) **Taxa de Devoluções**: Calcular a frequência de devoluções por produtos e lojas
 5) **Produtos Mais Vendidos**: Identificar os produtos mais vendidos.
 6) **Análise Temporal de Vendas**: Calcular a quantidade vendida por mês, trimestre e ano.
-7) **Vendas por Loja**: Analisar a distribuição das vendas por loja.
+7) **Vendas por Continemte e Tipo de Loja**: Calcular a receita total de vendas por continente e tipo de loja
 8) **Vendas por Cliente**: Verificar a distribuição das vendas por cliente.
 9) **Distribuição Geográfica das Lojas**: Criar um mapa de distribuição das lojas por estado e cidade.
 10) **Concentração de Lojas**: Identificar regiões com maior concentração de lojas.
@@ -407,6 +407,34 @@ Essa consulta fornece uma visão clara do desempenho mensal e anual das vendas, 
 - Acompanhar o crescimento acumulado ao longo do ano.
 - Comparar o desempenho entre diferentes anos.
 - Planejar estratégias de estoque, marketing e vendas com base em dados históricos.
+
+> 📝**Pergunta 7: Vendas por Continente e Tipo de Loja**
+
+~~~sql
+WITH Receita_Total_Continente AS
+(
+	SELECT
+		LC.Continente,
+		L.Tipo,
+		SUM(I.Qtd_Vendida * P.Preço_Unitario)AS Total_Continente
+	FROM Vendas V
+	INNER JOIN Itens I ON I.Id_Venda = V.Id_Venda
+	INNER JOIN Produtos P ON P.SKU = I.SKU
+	INNER JOIN Lojas L ON L.ID_Loja = V.ID_Loja
+	INNER JOIN Localidades LC ON LC.ID_Localidade = L.id_Localidade
+	GROUP BY LC.Continente, L.Tipo
+)
+SELECT 
+	 R.Continente,
+	 R.Tipo,	 
+	 FORMAT(R.Total_Continente,	'C0') AS Valor_Tipo_Loja,
+	 FORMAT(SUM(R.Total_Continente) OVER(PARTITION BY R.Continente), 'C0') AS Total_Continente	
+FROM Receita_Total_Continente R
+~~~
+
+
+
+
 
 
 ## Exploração Interativa dos Dados 
