@@ -455,6 +455,19 @@ FROM Receita_Total_Continente R
 	- Total de vendas: R$ 155.134.
 	- Mercado menor, com oportunidades de expansão.
 
+#### Desempenho por Tipo de Loja
+- **Lojas Físicas**:
+	- Dominam as vendas em todos os continentes, exceto na Oceania, onde não há dados de lojas online.
+	- Na América do Norte, as lojas físicas geraram R$ 8.335.180, representando 90% do total do continente.
+	- Na Ásia e Europa, as lojas físicas também são predominantes, com 73% e 69% do total de vendas, respectivamente.
+
+- **Lojas Online**:
+	- Têm uma participação menor, mas significativa.
+	- Na América do Norte, as vendas online representam 10% do total.
+	- Na Ásia e Europa, as vendas online representam 27% e 31%, respectivamente.
+	
+A tabela mostra que as lojas físicas são o principal canal de vendas, mas as vendas online têm uma participação significativa, especialmente na Ásia e Europa. A América do Norte é o mercado mais forte, enquanto a Oceania representa uma oportunidade de crescimento. Investir no canal online e expandir em mercados menores pode impulsionar ainda mais a receita global
+
 
 ## Exploração Interativa dos Dados 
 Agora que realizamos a análise exploratória e entendemos melhor os dados iremos comparar diferentes métricas e dimensões para identificar os pontos fortes e fracos, avaliar o impacto de diferentes estratégias para uma melhor tomada de decisão.
