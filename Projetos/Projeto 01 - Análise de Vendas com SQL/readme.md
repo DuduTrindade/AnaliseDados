@@ -441,26 +441,19 @@ FROM Receita_Total_Continente R
 - **América do Norte**:
 
 	- Total de vendas: R$ 9.247.045.
-
 	- É o continente com a maior receita, representando o mercado mais forte.
 
-Ásia:
+- **Ásia**:
+	- Total de vendas: R$ 2.956.342.
+	- Segundo maior mercado, com potencial de crescimento.
 
-Total de vendas: R$ 2.956.342.
+- **Europa**:
+	- Total de vendas: R$ 2.867.560.
+	- Desempenho próximo ao da Ásia, mas ligeiramente inferior.
 
-Segundo maior mercado, com potencial de crescimento.
-
-Europa:
-
-Total de vendas: R$ 2.867.560.
-
-Desempenho próximo ao da Ásia, mas ligeiramente inferior.
-
-Oceania:
-
-Total de vendas: R$ 155.134.
-
-Mercado menor, com oportunidades de expansão.
+- **Oceania**:
+	- Total de vendas: R$ 155.134.
+	- Mercado menor, com oportunidades de expansão.
 
 
 ## Exploração Interativa dos Dados 
