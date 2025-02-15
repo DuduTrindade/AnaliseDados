@@ -246,14 +246,14 @@ WITH CTE_Vendas AS (
 SELECT
 	YEAR(V.Data_Venda) AS Ano,	
 	MONTH(V.Data_Venda) AS Mes,
-	SUM(I.Qtd_Vendida) AS Vendas_Mes	
+	SUM(I.Qtd_Vendida * P.Preço_Unitario) AS Vendas_Mes	
 FROM Vendas V INNER JOIN Itens I ON V.Id_Venda = I.Id_Venda
+INNER JOIN Produtos P ON P.SKU = I.SKU
 GROUP BY YEAR(V.Data_Venda), MONTH(V.Data_Venda)
 )
 SELECT
 	Ano,	
 	Mes, 
-	SUM(Vendas_Mes) OVER(PARTITION BY Ano) AS Vendas_Ano,
 	Vendas_Mes,		
 	SUM(Vendas_Mes) OVER(PARTITION BY Ano ORDER BY Mes) AS Vendas_Acumulada
 FROM CTE_Vendas

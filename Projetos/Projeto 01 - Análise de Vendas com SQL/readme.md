@@ -375,6 +375,10 @@ O resultado ajuda a:
 - Criar estratégias de marketing direcionadas.
 - Otimizar estoque e compras com foco nos produtos de alto desempenho.
 
+> 📝**Pergunta 6: Análise Temporal de Vendas**
+
+
+
 
 
 ## Exploração Interativa dos Dados 
