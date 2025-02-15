@@ -29,7 +29,7 @@ Nesta análise estou utilizando o Sistema de Gerenciamento de Banco de Dados (SG
 
 
 
-### Tabela de Clientes
+#### Tabela de Clientes
 
 <div style="display: inline-block;">
 	<img width="800" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELAS%20CLIENTES.png">
@@ -49,7 +49,7 @@ Descrição: Esta tabela contém informações dos clientes. Segue abaixo os cam
 *	**Documento**: Documento de identificação do cliente.
 *	**Id_localidade**: Identificador da localidade do cliente.
 
-### Tabela de Devoluções
+#### Tabela de Devoluções
 
 <div style="display: inline-block;">
 	<img width="500" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20DEVOLU%C3%87%C3%95ES.png">
@@ -65,7 +65,7 @@ Descrição: Esta tabela registra as devoluções de produtos. Segue abaixo os c
 *	**Motivo_Devolucao**: Motivo pelo qual o produto foi devolvido.
 *	**Id_Devolução**: Identificador da devolução
 
-### Tabela de Itens
+#### Tabela de Itens
 
 <div style="display: inline-block;">
 	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20ITENS.png">
@@ -81,7 +81,7 @@ Descrição: Esta tabela detalha os itens vendidos em cada transação. Segue ab
 *	**SKU**: Código do produto.
 *	**Qtde_vendida**: Quantidade vendida do item.
 
-### Tabela de Localidades
+#### Tabela de Localidades
 
 <div style="display: inline-block;">
 	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20LOCALIDADES.png">
@@ -95,7 +95,7 @@ Descrição: Armazena informações geográficas. Segue abaixo os campos:
 *	**País**: nome do país
 *	**Continente**: nome do continente
 
-### Tabela de Lojas
+#### Tabela de Lojas
 
 <div style="display: inline-block;">
 	<img width="650" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20LOJAS.png">
@@ -114,7 +114,7 @@ Descrição: Esta tabela contém informações detalhadas sobre as lojas da empr
 *	**Documento_Gerente**: Documento de identificação do gerente da loja.
 
 
-### Tabela de Produtos
+#### Tabela de Produtos
 
 <div style="display: inline-block;">
 	<img width="650" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20PRODUTOS.png">
@@ -132,7 +132,7 @@ Descrição: Armazena informações sobre os produtos vendidos. Segue abaixo os 
 *	**Custo_Unitario**: Custo unitário do produto.
 *	**Observação**: Campo para observações adicionais sobre o produto.
 
-### Tabela de Vendas
+#### Tabela de Vendas
 
 <div style="display: inline-block;">
 	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20VENDAS.png">
