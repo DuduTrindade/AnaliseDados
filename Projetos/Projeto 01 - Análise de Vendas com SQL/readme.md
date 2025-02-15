@@ -468,7 +468,16 @@ A tabela mostra que as lojas físicas são o principal canal de vendas, mas as v
 
 > 📝**Pergunta 8: Concentração de Lojas**
 
+~~~SQL
+SELECT 
+	LC.Continente,
+	LC.País,
+	COUNT(1) AS Num_Lojas
+FROM LOJAS LJ INNER JOIN Localidades LC ON LJ.id_Localidade = LC.ID_Localidade
+GROUP BY LC.Continente, LC.País
+ORDER BY LC.Continente, Num_Lojas DESC
 
+~~~
 
 
 

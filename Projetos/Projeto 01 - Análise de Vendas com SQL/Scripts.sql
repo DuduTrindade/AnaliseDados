@@ -198,7 +198,7 @@ SELECT
 	 R.Tipo AS Tipo_Loja,	 
 	 FORMAT(R.Total_Continente,	'C0') AS Valor,
 	 FORMAT(SUM(R.Total_Continente) OVER(PARTITION BY R.Continente), 'C0') AS Total_Continente	
-FROM Receita_Total_Continente R
+FROM Receita_Total_Continente R;
 
 
 
@@ -206,6 +206,13 @@ FROM Receita_Total_Continente R
 -- Pergunta 8: Concentração de Lojas
 
 
+SELECT 
+	LC.Continente,
+	LC.País,
+	COUNT(1) AS Num_Lojas
+FROM LOJAS LJ INNER JOIN Localidades LC ON LJ.id_Localidade = LC.ID_Localidade
+GROUP BY LC.Continente, LC.País
+ORDER BY LC.Continente, Num_Lojas DESC
 
 
 
