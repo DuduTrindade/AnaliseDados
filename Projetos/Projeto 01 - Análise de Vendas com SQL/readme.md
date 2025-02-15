@@ -402,6 +402,11 @@ ORDER BY Ano, Mes;
 </div> 
 <br>
 
+Essa consulta fornece uma visão clara do desempenho mensal e anual das vendas, permitindo:
+- Identificar tendências sazonais.
+- Acompanhar o crescimento acumulado ao longo do ano.
+- Comparar o desempenho entre diferentes anos.
+- Planejar estratégias de estoque, marketing e vendas com base em dados históricos.
 
 
 ## Exploração Interativa dos Dados 
