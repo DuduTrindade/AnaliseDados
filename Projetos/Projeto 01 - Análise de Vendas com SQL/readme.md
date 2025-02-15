@@ -480,7 +480,7 @@ ORDER BY LC.Continente, Num_Lojas DESC
 ~~~
 
 <div align="center" style="display: inline-block;">
-	<img width="400" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/concentracao_lojas.png">	
+	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/concentracao_lojas.png">	
 </div> 
 <br>
 
