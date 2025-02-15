@@ -160,7 +160,7 @@ Nesta etapa, realizaremos uma análise exploratória das tabelas disponíveis pa
 4) **Taxa de Devoluções**: Calcular a frequência de devoluções por produtos e lojas
 5) **Produtos Mais Vendidos**: Identificar os produtos mais vendidos.
 6) **Análise Temporal de Vendas**: Calcular a quantidade vendida por mês, trimestre e ano.
-7) **Vendas por Continemte e Tipo de Loja**: Calcular a receita total de vendas por continente e tipo de loja
+7) **Vendas por Continente e Tipo de Loja**: Calcular a receita total de vendas por continente e tipo de loja
 8) **Vendas por Cliente**: Verificar a distribuição das vendas por cliente.
 9) **Distribuição Geográfica das Lojas**: Criar um mapa de distribuição das lojas por estado e cidade.
 10) **Concentração de Lojas**: Identificar regiões com maior concentração de lojas.
@@ -465,7 +465,7 @@ FROM Receita_Total_Continente R
 	- Têm uma participação menor, mas significativa.
 	- Na América do Norte, as vendas online representam 10% do total.
 	- Na Ásia e Europa, as vendas online representam 27% e 31%, respectivamente.
-	
+
 A tabela mostra que as lojas físicas são o principal canal de vendas, mas as vendas online têm uma participação significativa, especialmente na Ásia e Europa. A América do Norte é o mercado mais forte, enquanto a Oceania representa uma oportunidade de crescimento. Investir no canal online e expandir em mercados menores pode impulsionar ainda mais a receita global
 
 
