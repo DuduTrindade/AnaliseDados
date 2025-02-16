@@ -553,6 +553,14 @@ ORDER BY Porcentagem_Total_Produtos DESC;
 </div> 
 <br>
 
+#### Produto com Maior Volume de Vendas:
+Notebook é o produto que mais contribui para as vendas totais, representando 49,06% do total. Isso indica que os notebooks são os produtos mais vendidos e provavelmente os mais rentáveis.
+
+#### Produtos Secundários:
+Celular e Monitor são os próximos produtos mais significativos, com 29,09% e 11,20% respectivamente. Esses produtos também são importantes, mas têm um volume de vendas menor em comparação com os notebooks.
+
+#### Produtos Menores:
+Teclado, Mouse, Casaco e Camisa têm uma participação menor nas vendas, com 4,98%, 2,81%, 1,90% e 0,97% respectivamente. Esses produtos podem ser nichos de mercado ou áreas que a empresa está desenvolvendo.
 
 
 ## Exploração Interativa dos Dados 
