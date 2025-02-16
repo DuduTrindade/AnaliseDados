@@ -522,7 +522,7 @@ Vários países na Ásia e Europa têm apenas 1 loja, como Singapura, Quirguist�
 - Há uma presença significativa, mas menor, em países europeus e asiáticos.
 - A Oceania e alguns países da Ásia e Europa têm uma presença muito limitada, o que pode indicar oportunidades de expansão.
 
-> 📝**Pergunta 9: Concentração de Lojas**
+> 📝**Pergunta 9: Categorias de Produtos**
 
 ~~~sql
 WITH CTE_Total_Tipo AS (
@@ -549,7 +549,7 @@ ORDER BY Porcentagem_Total_Produtos DESC;
 ~~~
 
 <div align="center" style="display: inline-block;">
-	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/concentracao_lojas.png">	
+	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/venda_tipo_produtos.png">	
 </div> 
 <br>
 
