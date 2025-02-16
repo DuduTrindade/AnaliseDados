@@ -485,7 +485,42 @@ ORDER BY LC.Continente, Num_Lojas DESC
 <br>
 
 
+#### Distribuição Geográfica das Lojas:
+- América do Norte: A maioria das lojas está concentrada nos Estados Unidos, com 198 lojas, enquanto o Canadá tem apenas 11 lojas.
+- Ásia: A China tem o maior número de lojas na Ásia, com 9 lojas, seguida pelo Japão com 8 lojas. Outros países asiáticos têm um número menor de lojas, variando de 1 a 3.
+- Europa: O Reino Unido lidera com 15 lojas, seguido pela Alemanha com 12 lojas e França com 8 lojas. A maioria dos outros países europeus tem apenas 1 loja.
+- Oceania: A Austrália tem 3 lojas, sendo o único país listado na Oceania.
 
+#### Concentração por Continente:
+
+América do Norte: 209 lojas (198 nos EUA e 11 no Canadá).
+- Ásia: 36 lojas.
+- Europa: 54 lojas.
+- Oceania: 3 lojas.
+
+#### Países com Maior Número de Lojas:
+
+- Estados Unidos: 198 lojas.
+- Reino Unido: 15 lojas.
+- Alemanha: 12 lojas.
+- China: 9 lojas.
+- França: 8 lojas.
+
+#### Países com Menor Número de Lojas:
+
+Vários países na Ásia e Europa têm apenas 1 loja, como Singapura, Quirguistão, Armênia, Indonésia, Romênia, Polônia, Portugal, Malta, Suécia, Suíça, Grécia, Holanda, Irlanda, Dinamarca, Eslovénia e Espanha.
+
+#### Diversidade de Países:
+
+- A Ásia tem a maior diversidade de países com lojas, totalizando 13 países.
+- A Europa tem 16 países com lojas.
+- A América do Norte e a Oceania têm uma diversidade menor, com 2 e 1 país, respectivamente.
+
+#### Estratégia de Expansão:
+
+- A empresa parece ter uma forte presença nos Estados Unidos, que é o mercado principal.
+- Há uma presença significativa, mas menor, em países europeus e asiáticos.
+- A Oceania e alguns países da Ásia e Europa têm uma presença muito limitada, o que pode indicar oportunidades de expansão.
 
 
 
