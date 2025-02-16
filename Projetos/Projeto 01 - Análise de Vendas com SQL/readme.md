@@ -7,7 +7,7 @@ No mundo atual, onde os dados são considerados o novo petróleo, a capacidade d
 
 Analisarei dados de uma empresa fictícia de varejo que atua no segmento de eletrônicos e vestuários, oferecendo desde dispositivos móveis, computadores até acessórios tecnológicos de ponta, camisas, casacos e relógios. Com presença em múltiplos continentes e operando tanto online quanto em lojas físicas, a empresa atende uma base diversificada de clientes: indivíduos, pequenas e grandes 	empresas. 
 
-Ao longo desta análise, utilizarei SQL para explorar e interpretar dados de vendas, buscando respostas para perguntas estratégicas que podem orientar decisões empresariais. Desde a identificação dos produtos mais vendidos até a análise das taxas de devolução por loja, cada consulta SQL nos fornecerá insights que podem ser transformados em ações concretas para melhorar o desempenho da empresa. Retornar ao [início.](https://github.com/DuduTrindade/AnaliseDados/tree/in?tab=readme-ov-file#todos-os-meus-projetos)
+Ao longo desta análise, utilizarei SQL para explorar e interpretar dados de vendas, buscando respostas para perguntas estratégicas que podem orientar decisões empresariais. Desde a identificação dos produtos mais vendidos até a análise das taxas de devolução por loja, cada consulta SQL nos fornecerá insights que podem ser transformados em ações concretas para melhorar o desempenho da empresa. Retornar ao [início.](https://github.com/DuduTrindade/AnaliseDados/tree/main?tab=readme-ov-file#todos-os-meus-projetos)
 
 
 ## Estrutura do Conjunto de Dados
