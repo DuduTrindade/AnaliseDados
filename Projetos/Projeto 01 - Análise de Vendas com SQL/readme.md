@@ -522,6 +522,36 @@ Vários países na Ásia e Europa têm apenas 1 loja, como Singapura, Quirguist�
 - Há uma presença significativa, mas menor, em países europeus e asiáticos.
 - A Oceania e alguns países da Ásia e Europa têm uma presença muito limitada, o que pode indicar oportunidades de expansão.
 
+> 📝**Pergunta 9: Concentração de Lojas**
+
+~~~sql
+WITH CTE_Total_Tipo AS (
+    SELECT 
+        P.Tipo_Produto,
+        SUM(P.Preço_Unitario * I.Qtd_Vendida) AS Total_Tipo
+    FROM Produtos P 
+    INNER JOIN Itens I ON P.SKU = I.SKU
+    GROUP BY P.Tipo_Produto
+),
+CTE_Total_Geral_Tipo AS (
+    SELECT 
+        SUM(P.Preço_Unitario * I.Qtd_Vendida) AS Total_Geral
+    FROM Produtos P 
+    INNER JOIN Itens I ON P.SKU = I.SKU
+)
+SELECT
+    TT.Tipo_Produto AS Tipo_Produto,
+    TT.Total_Tipo  AS Vendas_R$,
+	(TT.Total_Tipo / TG.Total_Geral) * 100 AS Porcentagem_Total_Produtos
+FROM CTE_Total_Tipo TT
+CROSS JOIN CTE_Total_Geral_Tipo TG
+ORDER BY Porcentagem_Total_Produtos DESC;
+~~~
+
+<div align="center" style="display: inline-block;">
+	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/concentracao_lojas.png">	
+</div> 
+<br>
 
 
 
