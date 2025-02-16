@@ -205,14 +205,45 @@ FROM Receita_Total_Continente R;
 
 -- Pergunta 8: Concentração de Lojas
 
-
 SELECT 
 	LC.Continente,
 	LC.País,
 	COUNT(1) AS Num_Lojas
 FROM LOJAS LJ INNER JOIN Localidades LC ON LJ.id_Localidade = LC.ID_Localidade
 GROUP BY LC.Continente, LC.País
-ORDER BY LC.Continente, Num_Lojas DESC
+ORDER BY LC.Continente, Num_Lojas DESC;
+
+
+-- Pergunta 9: Categorias de Produtos
+WITH CTE_Total_Tipo AS (
+    SELECT 
+        P.Tipo_Produto,
+        SUM(P.Preço_Unitario * I.Qtd_Vendida) AS Total_Tipo
+    FROM Produtos P 
+    INNER JOIN Itens I ON P.SKU = I.SKU
+    GROUP BY P.Tipo_Produto
+),
+CTE_Total_Geral_Tipo AS (
+    SELECT 
+        SUM(P.Preço_Unitario * I.Qtd_Vendida) AS Total_Geral
+    FROM Produtos P 
+    INNER JOIN Itens I ON P.SKU = I.SKU
+)
+SELECT
+    TT.Tipo_Produto AS Tipo_Produto,
+    TT.Total_Tipo  AS Vendas_R$,
+	(TT.Total_Tipo / TG.Total_Geral) * 100 AS Porcentagem_Total_Produtos
+FROM CTE_Total_Tipo TT
+CROSS JOIN CTE_Total_Geral_Tipo TG
+ORDER BY Porcentagem_Total_Produtos DESC;
+
+
+
+
+
+
+
+
 
 
 

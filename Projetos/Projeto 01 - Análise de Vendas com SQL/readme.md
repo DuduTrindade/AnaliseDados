@@ -162,7 +162,7 @@ Nesta etapa, realizaremos uma análise exploratória das tabelas disponíveis pa
 6) **Análise Temporal de Vendas**: Calcular a quantidade vendida por mês, trimestre e ano.
 7) **Vendas por Continente e Tipo de Loja**: Calcular a receita total de vendas por continente e tipo de loja
 8) **Concentração de Lojas**: Identificar regiões com maior concentração de lojas.
-9) **Categorias de Produtos**: Analisar a distribuição dos produtos por categoria.
+9) **Categorias de Produtos**: Analisar a distribuição de vendas dos produtos por categoria.
 
 
 ### Análises
