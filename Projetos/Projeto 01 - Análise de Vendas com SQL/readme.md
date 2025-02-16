@@ -493,7 +493,7 @@ ORDER BY LC.Continente, Num_Lojas DESC
 
 #### Concentração por Continente:
 
-América do Norte: 209 lojas (198 nos EUA e 11 no Canadá).
+- América do Norte: 209 lojas (198 nos EUA e 11 no Canadá).
 - Ásia: 36 lojas.
 - Europa: 54 lojas.
 - Oceania: 3 lojas.
