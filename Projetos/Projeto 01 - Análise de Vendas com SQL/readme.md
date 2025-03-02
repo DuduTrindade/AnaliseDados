@@ -598,7 +598,7 @@ Principais indicadores chaves de desempenho (key performance indicator ou KPI) c
 Aqui segue o [Link](https://app.powerbi.com/view?r=eyJrIjoiZmIxNTIyNWEtOTNlNi00ZGRiLThjYTEtYjQ5ZTJlNjNlZDkwIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9) para acessar o Dashboard.
 
 
-<br><br><br><br>
+<br>
 
 ## Conclusão 
 O projeto de análise de dados demonstrou de forma clara e eficaz como a utilização de ferramentas analíticas, em especial o SQL, pode transformar dados brutos em insights estratégicos capazes de impulsionar decisões empresariais. Ao longo da análise, foram explorados diversos aspectos críticos do negócio, desde o comportamento dos clientes até o desempenho de produtos e lojas, permitindo identificar oportunidades de melhoria e otimização.
