@@ -588,8 +588,10 @@ Principais indicadores chaves de desempenho (key performance indicator ou KPI) c
 - [x] Margem de lucro.<br>
 
 ### Dashboard
-[Link](https://app.powerbi.com/links/E0UQO8DuAc?ctid=659ce2b8-0714-4198-8c38-dc9b60aabb57&pbi_source=linkShare)
 
+[](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/Dashboard%201.png)
+
+[](https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/Dashboard%202.png)
 
 
 <br><br><br><br>
