@@ -593,7 +593,9 @@ Principais indicadores chaves de desempenho (key performance indicator ou KPI) c
 	<img width="800" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/dash%201.png"> <br>
 	<img width="800" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/dash%202.png">
 </div>
+<br>
 
+Aqui segue o [Link](https://app.powerbi.com/view?r=eyJrIjoiZmIxNTIyNWEtOTNlNi00ZGRiLThjYTEtYjQ5ZTJlNjNlZDkwIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9) para acessar o Dashboard
 
 
 <br><br><br><br>
