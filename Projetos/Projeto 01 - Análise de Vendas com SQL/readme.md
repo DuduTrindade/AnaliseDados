@@ -595,7 +595,7 @@ Principais indicadores chaves de desempenho (key performance indicator ou KPI) c
 </div>
 <br>
 
-Aqui segue o [Link](https://app.powerbi.com/view?r=eyJrIjoiZmIxNTIyNWEtOTNlNi00ZGRiLThjYTEtYjQ5ZTJlNjNlZDkwIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9) para acessar o Dashboard
+Aqui segue o [Link](https://app.powerbi.com/view?r=eyJrIjoiZmIxNTIyNWEtOTNlNi00ZGRiLThjYTEtYjQ5ZTJlNjNlZDkwIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9) para acessar o Dashboard.
 
 
 <br><br><br><br>
