@@ -587,7 +587,7 @@ Principais indicadores chaves de desempenho (key performance indicator ou KPI) c
 - [x] Custo total;<br>
 - [x] Margem de lucro.<br>
 
-
+### Dashboard
 
 <br><br><br><br>
 
