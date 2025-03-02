@@ -601,6 +601,8 @@ Aqui segue o [Link](https://app.powerbi.com/view?r=eyJrIjoiZmIxNTIyNWEtOTNlNi00Z
 <br><br><br><br>
 
 ## Conclusão 
+O projeto de análise de dados demonstrou de forma clara e eficaz como a utilização de ferramentas analíticas, em especial o SQL, pode transformar dados brutos em insights estratégicos capazes de impulsionar decisões empresariais. Ao longo da análise, foram explorados diversos aspectos críticos do negócio, desde o comportamento dos clientes até o desempenho de produtos e lojas, permitindo identificar oportunidades de melhoria e otimização.
+
 Este projeto não apenas reforçou a importância da análise de dados no contexto empresarial, mas também ilustrou como a tecnologia pode ser utilizada para transformar dados em conhecimento estratégico. A empresa ao adotar uma abordagem baseada em dados, conseguiu se posicionar de forma mais competitiva no mercado, garantindo maior eficiência operacional e melhores resultados financeiros a longo prazo. A análise de dados mostrou-se, portanto, uma ferramenta indispensável para a tomada de decisões informadas e assertivas, capazes de impulsionar o crescimento sustentável da empresa
 
 
