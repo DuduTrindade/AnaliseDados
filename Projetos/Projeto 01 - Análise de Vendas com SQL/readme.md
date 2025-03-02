@@ -588,6 +588,9 @@ Principais indicadores chaves de desempenho (key performance indicator ou KPI) c
 - [x] Margem de lucro.<br>
 
 ### Dashboard
+[Link]([início.](https://github.com/DuduTrindade/AnaliseDados/tree/main?tab=readme-ov-file#todos-os-meus-projetos)
+
+
 
 <br><br><br><br>
 
