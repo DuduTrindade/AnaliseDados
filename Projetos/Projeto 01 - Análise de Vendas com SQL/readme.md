@@ -592,6 +592,7 @@ Principais indicadores chaves de desempenho (key performance indicator ou KPI) c
 <div style="display: inline-block;">
 	<img width="800" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/dash%201.png"> <br>
 	<img width="800" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/dash%202.png">
+	<img width="800" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/dash%203.png">
 </div>
 <br>
 
