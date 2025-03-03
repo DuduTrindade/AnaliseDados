@@ -574,6 +574,7 @@ Agora que realizamos a análise exploratória e entendemos melhor os dados iremo
 - [x] Comparação do lucro entre as marcas;<br>
 - [x] Comparação do lucro entre os canais de vendas;<br>
 - [x] Visão geral sobre cada loja; <br>
+- [x] Visão geral sobre os produtos; <br>
 - [x] Comparação do lucro entre os países.<br>
 
 ### KPIs
